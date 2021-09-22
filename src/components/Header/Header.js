@@ -1,12 +1,13 @@
 import React from "react";
 import './header.css'
+import corebizLogo from '../../assets/logo-corebiz.svg'    
 
 export default function Header(){
     return (
         <header className="header">
             <section className="header-container">
                 <div className="logo">
-                    <img src="logo-corebiz.svg" alt="Logo"/>
+                    <img src={corebizLogo} alt="Logo"/>
                 </div>
                 <nav className="navbar">
                     <ul className="navbar-itens">
