@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="371" height="210" viewBox="0 0 371 210">
+  <defs>
+    <filter id="Rectangle_4" x="0" y="0" width="371" height="210" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="button" transform="translate(75 72)">
+    <g transform="matrix(1, 0, 0, 1, -75, -72)" filter="url(#Rectangle_4)">
+      <rect id="Rectangle_4-2" data-name="Rectangle 4" width="221" height="60" rx="30" transform="translate(75 72)" fill="#fff"/>
+    </g>
+    <text id="veja_mais" data-name="veja mais" transform="translate(46.903 18)" font-size="20" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="19">veja mais</tspan></text>
+    <g id="Icon_ionic-ios-arrow-dropright-circle" data-name="Icon ionic-ios-arrow-dropright-circle" transform="translate(153.344 21.108)">
+      <path id="Icon_ionic-ios-arrow-dropright-circle-2" data-name="Icon ionic-ios-arrow-dropright-circle" d="M3.375,13.752A10.377,10.377,0,1,0,13.752,3.375,10.375,10.375,0,0,0,3.375,13.752Zm12.2,0L11.487,9.706a.963.963,0,1,1,1.362-1.362l4.759,4.774a.962.962,0,0,1,.03,1.327l-4.689,4.7a.961.961,0,1,1-1.362-1.357Z" transform="translate(-3.375 -3.375)"/>
+    </g>
+  </g>
+</svg>

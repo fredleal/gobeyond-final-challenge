@@ -14,7 +14,6 @@ export const Content = styled.div`
     justify-content: space-between;
 
     padding: 3.5rem 5rem;
-    /* height: 7.7rem;       */
 `
 export const NavItens = styled.div`
        align-items: flex-start;
@@ -26,7 +25,7 @@ export const NavItens = styled.div`
         color: var(--white);
         margin: 0 0 0 3rem ;
 
-        transition: filter 0.3s;
+        
 
         text-decoration: none;
         cursor: pointer;
@@ -34,6 +33,7 @@ export const NavItens = styled.div`
         &:hover {
             color: var(--gray);
             border-bottom: 1px solid var(--white);
+            transition: filter 0.8s;
         }
     }
 `

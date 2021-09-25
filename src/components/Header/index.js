@@ -1,5 +1,4 @@
 import React from "react";
-// import './header.css'
 import corebizLogo from '../../assets/logo-corebiz.svg'
 import { Container, Content, NavItens} from "./styles";
 
