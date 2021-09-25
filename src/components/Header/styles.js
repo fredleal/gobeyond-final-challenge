@@ -13,7 +13,7 @@ export const Content = styled.div`
     display: flex;
     justify-content: space-between;
 
-    padding: 3.5rem 5rem;
+    padding: 2.5rem 5rem 3.15rem;
 `
 export const NavItens = styled.div`
        align-items: flex-start;

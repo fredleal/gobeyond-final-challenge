@@ -32,6 +32,11 @@ export const GlobalStyle = createGlobalStyle`
         -webkit-font-smoothing: antialiased;
     }
 
+    body, input, textarea, select, button{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    }
+
     button{
         cursor: pointer;
     }
