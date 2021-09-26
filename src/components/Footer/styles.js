@@ -47,7 +47,7 @@ export const InfoText = styled.div`
 `
 
 export const Locations = styled.div`
-    background: var(--gray);
+    background: var(--light-gray);
     padding:  3.5rem 10rem;
 
     display: grid;
