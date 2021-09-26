@@ -69,6 +69,7 @@ export const RightContainer = styled.section`
         img{
             border-radius: 2rem;
             width: 55vmax; 
+            height: auto;
         }
 
 
