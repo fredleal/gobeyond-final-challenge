@@ -16,7 +16,7 @@ export function MainContent() {
 
     const [index, setIndex] = useState(0);
     useEffect(() => {
-        async function getPhoto() {
+        async function getImage() {
             const response = await fetch(
                 "https://my-json-server.typicode.com/fredleal/db-api/data"
             );
@@ -27,7 +27,7 @@ export function MainContent() {
             console.log(data);
         }
 
-        getPhoto();
+        getImage();
     }, []);
 
     return (
@@ -44,32 +44,32 @@ export function MainContent() {
                     <img
                         className={index === 0}
                         src={data[0].thumbUrl}
-                        alt="imagem"
+                        alt="images"
                         onClick={() => setIndex(0)}
                     />
                     <img
                         className={index === 1}
                         src={data[1].thumbUrl}
-                        alt="imagem"
+                        alt="images"
                         onClick={() => setIndex(1)}
                     />
                     <img
                         className={index === 2}
                         src={data[2].thumbUrl}
-                        alt="imagem"
+                        alt="images"
                         onClick={() => setIndex(2)}
                     />
                     <img
                         className={index === 3}
                         src={data[3].thumbUrl}
-                        alt="imagem"
+                        alt="images"
                         onClick={() => setIndex(3)}
                     />
                 </div>
             </LeftContainer>
             <RightContainer>
                 <div>
-                <img src={data[index].imgUrl} alt="imagem"  />
+                    <img src={data[index].imgUrl} alt="images"  />
                 </div>
             </RightContainer>
         </MainContainer>

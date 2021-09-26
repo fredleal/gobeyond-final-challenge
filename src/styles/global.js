@@ -28,7 +28,6 @@ export const GlobalStyle = createGlobalStyle`
     //REM = 1rem = font-size
 
     body {
-        background: var(--background);
         -webkit-font-smoothing: antialiased;
     }
 

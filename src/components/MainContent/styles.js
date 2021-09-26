@@ -5,10 +5,9 @@ export const MainContainer = styled.main`
     display: grid;
     width: 100%;
     height: 75vh;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 75% 25%;
+    grid-template-columns: 40% 55%;
     grid-template-areas: "leftContainer rightContainer";
-
+    background: var(--background);
 `
 
 export const LeftContainer = styled.section`
@@ -16,25 +15,25 @@ export const LeftContainer = styled.section`
     flex-direction: column;
     justify-content: flex-end;
     color: var(--white);
-    max-height: 680px;
+   
 
     h1{
         text-align: left;
-        font-size: 3.8rem;
-        margin: 5rem 3rem 0 5rem;
+        font-size: 3.5rem;
+        margin: 5rem 0 0rem 5rem;
         max-width: 485px;
-        width: 55vh;
+        width: 50vh;
         height: 30vh;     
     }
 
     button {
-        margin: 3rem 5rem;
+        margin: 1rem 5rem;
         width: 221px;
         height: 60px;
         background: var(--white);
         border: none;
         border-radius: 4rem;
-        font-size:150%;        
+        font-size:140%;        
 
         &:hover {
             background: var(--gray);
@@ -42,7 +41,7 @@ export const LeftContainer = styled.section`
    
         img{
             margin: 0 0.5rem -0.12rem;
-            border-radius: 0.3rem;
+            border-radius: 0.5rem;
         }   
     }
 
@@ -53,26 +52,30 @@ export const LeftContainer = styled.section`
         align-items: center;
         justify-content: center;
         position: absolute;
-        margin: 3.5rem;
-    } 
+        margin: 3.5rem 4rem;
+
+        img{
+            width: 122px;  
+        }
+
+    }
+
 `
 export const RightContainer = styled.section`
         grid-area: rightContainer;
-        width: 100%;
-      
-        margin-right: 5rem;
+       
         
         img{
-            border-radius: 1rem;
-            width: 90%
+            border-radius: 2rem;
+            width: 55vmax; 
         }
 
 
-    @media (max-width: 1200px) {
+    /* @media (max-width: 1200px) {
             img {
-                width: 100%;
-                margin: 7rem;
+                margin-left: 4rem;
+                
             }
-        }
+        } */
 `
 
