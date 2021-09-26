@@ -33,7 +33,8 @@ export const LeftContainer = styled.section`
         background: var(--white);
         border: none;
         border-radius: 4rem;
-        font-size:140%;        
+        font-size:120%;
+              
 
         &:hover {
             background: var(--gray);
