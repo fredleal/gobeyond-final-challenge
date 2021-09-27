@@ -97,8 +97,9 @@ export const RightContainer = styled.section`
        
         
         img{
+            
             border-radius: 2rem;
-            width: 55vmax; 
+            width: 50vmax; 
             height: auto;
         }
 
