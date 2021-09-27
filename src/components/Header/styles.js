@@ -19,10 +19,13 @@ export const Content = styled.div`
     }
 
     @media (max-width: 1000px){
+        padding: 0;
         img{
-            width:150px;
-            padding: 0 0;
+            width:126px;
+            margin-left: 2rem;
+            margin-top: 1rem;     
         }
+
     }
 `
 export const NavItens = styled.div`
@@ -46,6 +49,13 @@ export const NavItens = styled.div`
             border-bottom: 1px solid var(--white);
             transition: filter 0.8s;
             
+        }
+
+        @media (max-width: 1000px) {
+            display: flex;
+            font-weight: 400;
+            font-size: 75%;
+            margin-right: 2rem;
         }
     }
 `

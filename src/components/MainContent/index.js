@@ -34,8 +34,8 @@ export function MainContent() {
         <MainContainer>
             <LeftContainer>
                 <h1>{data[index].title}</h1>
-                <button>
-                    <a href="https://www.corebiz.ag/pt/">
+                <button > 
+                    <a href="https://www.corebiz.ag/pt/" >
                         veja mais
                         <img src={arrowButton} alt="Veja Mais" />
                     </a>

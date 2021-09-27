@@ -5,12 +5,13 @@ export const MainContainer = styled.main`
     display: grid;
     width: 100%;
     height: 75vh;
-    grid-template-columns: 40% 55%;
+    grid-template-columns: 45% 55%;
     grid-template-areas: "leftContainer rightContainer";
     background: var(--background);
 
     @media (max-width: 1000px) {
-    height: 130vh;
+    width:100%;
+    height: 110vh;
     grid-template-columns: 100%;
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
@@ -43,6 +44,7 @@ export const LeftContainer = styled.section`
         border: none;
         border-radius: 4rem;
         font-size:120%;
+        color: #000;
               
 
         &:hover {
@@ -72,15 +74,20 @@ export const LeftContainer = styled.section`
 
     @media (max-width: 1000px){
         h1{
-            margin-bottom: 12rem;
+            margin-bottom: 1rem;
+            margin-left: 2rem;
+            font-size: 40px;    
         }
         div{
-            margin-left: 29px;
+            margin-left: 2rem;
         }
         div img{
-            width: 75px;
-            height: 45px;
-            margin-top: 50%;
+            width: 70px;
+            height: 40px;
+            margin-top: 70%;
+        }
+        button {
+            margin-left: 2rem;
         }
     }
 
@@ -99,6 +106,7 @@ export const RightContainer = styled.section`
         @media (max-width: 1000px) {
             img {
                 margin-left: 29px;
+                margin-top: 20px;
                 width: 320px;
                 height: 180px;
                 

@@ -15,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         text-decoration: none;
+        -webkit-text-decoration: none;
     }
 
     html {
@@ -36,8 +37,9 @@ export const GlobalStyle = createGlobalStyle`
         font-weight: 500;
     }
 
-    button{
+    button, a{
         cursor: pointer;
+        color: #000000;
     }
 
     [disabled] {
