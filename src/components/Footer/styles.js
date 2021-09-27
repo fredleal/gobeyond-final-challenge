@@ -7,6 +7,12 @@ export const Container = styled.footer`
     grid-template-columns: 30% 70%;
     font-family:Montserrat;
     font-size: 12px;
+
+    @media (max-width: 1000px) {
+        grid-template-columns: 1fr;
+        place-items: center;
+        grid-template-columns: 100%;
+    }
     
 `
 
@@ -15,8 +21,14 @@ export const Info = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding:  3.5rem 0;
-    
+    max-width: 640px;
 
+    @media (max-width: 1000px) {
+        grid-template-columns: 1fr;
+        place-items: center;
+        grid-template-columns: 100%;
+    }
+    
 `
 
 export const InfoImgs = styled.div`
@@ -28,6 +40,15 @@ export const InfoImgs = styled.div`
     }
     a {
         margin: 1rem;
+    }
+    @media (max-width: 1000px) {
+        img{
+            padding-left: 1.5rem;
+            
+        }
+
+  
+
     }
 
 `
@@ -44,6 +65,13 @@ export const InfoText = styled.div`
     padding: 0 10px 0 0;
     margin: 1rem 1rem;
    }
+   @media (max-width: 1000px) {
+    width: 100%;
+    align-items: center;
+    ul {
+        margin-top: 2.5rem;
+    }
+   }
 `
 
 export const Locations = styled.div`
@@ -58,4 +86,12 @@ export const Locations = styled.div`
     padding: 1rem
    }
 
+
+   @media (max-width: 1000px) {
+    width: 100%;
+    margin: auto;
+    grid-template-columns: 100%;
+    padding: 3rem 4rem;
+
+   }
 `

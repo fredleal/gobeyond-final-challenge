@@ -17,6 +17,13 @@ export const Content = styled.div`
     img {
         max-height: 48px;
     }
+
+    @media (max-width: 1000px){
+        img{
+            width:150px;
+            padding: 0 0;
+        }
+    }
 `
 export const NavItens = styled.div`
        align-items: flex-start;
@@ -38,6 +45,7 @@ export const NavItens = styled.div`
             color: var(--gray);
             border-bottom: 1px solid var(--white);
             transition: filter 0.8s;
+            
         }
     }
 `

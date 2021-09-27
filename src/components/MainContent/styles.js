@@ -8,6 +8,15 @@ export const MainContainer = styled.main`
     grid-template-columns: 40% 55%;
     grid-template-areas: "leftContainer rightContainer";
     background: var(--background);
+
+    @media (max-width: 1000px) {
+    height: 130vh;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "leftContainer"
+      "rightContainer"
+    }
 `
 
 export const LeftContainer = styled.section`
@@ -61,6 +70,20 @@ export const LeftContainer = styled.section`
 
     }
 
+    @media (max-width: 1000px){
+        h1{
+            margin-bottom: 12rem;
+        }
+        div{
+            margin-left: 29px;
+        }
+        div img{
+            width: 75px;
+            height: 45px;
+            margin-top: 50%;
+        }
+    }
+
 `
 export const RightContainer = styled.section`
         grid-area: rightContainer;
@@ -73,11 +96,13 @@ export const RightContainer = styled.section`
         }
 
 
-    /* @media (max-width: 1200px) {
+        @media (max-width: 1000px) {
             img {
-                margin-left: 4rem;
+                margin-left: 29px;
+                width: 320px;
+                height: 180px;
                 
             }
-        } */
+        }
 `
 
