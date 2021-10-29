@@ -1,6 +1,6 @@
 <h1 align="center"> Go Beyond - Desafio final 🚀 </h1>
 <p align="center">
-  <img src="public/favicon.ico" />
+  <img width="150" height="150" src="public/favicon.ico" />
 </p>
 
 
